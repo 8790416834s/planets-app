@@ -1,0 +1,17 @@
+.main-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/planets-app/planets-bg-img.png');
+  background-size: cover;
+  height: auto;
+}
+.heading {
+  font-family: 'Roboto';
+  color: #05acff;
+}
+.list-container {
+  display: flex;
+  color: #ffffff;
+}
