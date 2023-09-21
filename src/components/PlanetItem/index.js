@@ -1,3 +1,5 @@
+import Slider from 'react-slick'
+
 import './index.css'
 
 const PlanetItem = props => {
@@ -6,9 +8,13 @@ const PlanetItem = props => {
 
   return (
     <li className="slider-container">
-      <img src={imageUrl} alt={name} className="carousel-img" />
-      <h1>{name}</h1>
-      <p>{description}</p>
+      <Slider>
+        <div>
+          <img src={imageUrl} alt={name} className="carousel-img" />
+          <h1>{name}</h1>
+          <p>{description}</p>
+        </div>
+      </Slider>
     </li>
   )
 }
