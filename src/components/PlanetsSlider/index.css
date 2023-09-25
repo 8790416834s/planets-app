@@ -2,11 +2,15 @@
   background-image: url('https://assets.ccbp.in/frontend/react-js/planets-app/planets-bg-img.png');
   background-size: cover;
   height: auto;
+  padding: 40px;
+  color: #ffffff;
+  text-align: center;
 }
 .heading {
   font-family: 'Roboto';
   color: #05acff;
 }
 .list-container {
-  color: #ffffff;
+  display: flex;
+  flex-direction: column;
 }
